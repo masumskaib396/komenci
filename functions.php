@@ -160,14 +160,6 @@ if ( ! function_exists( 'komenci_setup' ) ) :
 			)
 		);
 
-		add_theme_support( 
-			'post-formats', array( 'aside', 'gallery', 'link', 'quate', 'image', 'status', 'video', 'audio','chat' ) 
-		);
-
-
-
-
-
 		// Default block styles.
 		add_theme_support( 'wp-block-styles' );
 
