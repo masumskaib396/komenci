@@ -46,6 +46,13 @@ $("#primary-menu li").on('mouseenter mouseleave', function (e) {
   }
 });
 
+
+$(".komenci-menu-close").on('click', function(){
+  console.log("HELLO WORLD");
+  $('#site-header-menu').removeClass('toggled-on');
+});
+
+
 });/*End document ready*/
 
 

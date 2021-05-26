@@ -3,6 +3,9 @@
 
 }
 @media (max-width: 991px)  { 
+    button.screen-reader-text.komenci-menu-close {
+        display: block;
+    }
 	.komenci-footer-column_four .komenci-footer-widget {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;

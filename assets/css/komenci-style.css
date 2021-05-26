@@ -53,10 +53,8 @@ a:hover {
   outline: none;
   color: #666666;
 }
-/* a:focus {
-  outline: thin dotted;
-  text-decoration: underline;
-} */
+
+
 
 
 .screen-reader-text {
@@ -128,7 +126,6 @@ a:hover {
   z-index: 100000;
 }
 
-
 p {
   margin: 0 0 20px;
 }
@@ -194,6 +191,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover,
 .h1 a:hover, .h2 a:hover, .h3 a:hover, .h4 a:hover, .h5 a:hover, .h6 a:hover {
   color: #666666;
+}
+.entry-content h1 a, .entry-content h2 a, .entry-content h3 a, .entry-content h4 a, .entry-content h5 a, .entry-content h6 a,
+.entry-content .h1 a, .entry-content .h2 a, .entry-content .h3 a, .entry-content .h4 a, .entry-content .h5 a, .entry-content .h6 a{
+  text-decoration: underline;
 }
 
 blockquote {
@@ -13709,6 +13710,9 @@ textarea {
   font-weight: 600;
   margin: 0 40px;
 }
+button.screen-reader-text.komenci-menu-close {
+  display: none;
+}
 
 @media only screen and (max-width: 1199.98px) {
   .komenci-header-top-info ul li {
@@ -13721,6 +13725,15 @@ textarea {
     display: block;
     margin: 15px 0;
   }
+  button.screen-reader-text.komenci-menu-close {
+     display: block;
+      position: initial !important;
+      left: 30px !important;
+      bottom: 10px !important;
+      margin-left: 20px !important;
+      margin-bottom: 20px;
+  }
+
 }
 
 .komenci-header-top-info ul li:first-child {

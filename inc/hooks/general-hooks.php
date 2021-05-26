@@ -105,6 +105,7 @@ if( ! function_exists( 'komenci_header_wrap' ) ) :
                 <?php komenci_logo_wrap(); ?>
             </div><!-- .site-branding -->
             <button id="menu-toggle" class="menu-toggle"><?php _e( 'Menu', 'komenci' ); ?></button>
+            
         </div>
         <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 d-flex align-items-center justify-content-end">
             <div class="komenci-nav-wrap komenci-nav-wrap-2 komenci-nav-wrap-3 komenci-nav-wrap-4">
@@ -135,8 +136,10 @@ if( ! function_exists( 'komenci_header_wrap' ) ) :
                         ?>
                         <?php do_action( 'komenci_nav_after' ); ?>
                     </nav><!-- #site-navigation -->
+                    <button class="screen-reader-text komenci-menu-close"><i class="ti-close"></i></button>
                 </div>
             </div>
+            
         </div> <!-- .col-lg-9 -->
         <?php
     }
