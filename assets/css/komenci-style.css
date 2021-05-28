@@ -14543,10 +14543,41 @@ button.screen-reader-text.komenci-menu-close {
   margin-bottom: 30px;
 }
 
+.komenci-sidebar-wrap figure.gallery-item {
+  padding: 5px;
+  margin: 0;
+}
 .komenci-blog-single-thumb-item figure {
   height: 255px;
 }
+.komenci-footer-about-wrap img {
+  width: 100%;
+  min-height: 350px;
+  max-height: 350px;
+  object-fit: cover;
+  object-position: center top;
+}
 
+.komenci-social-icon ul li:hover i {
+  color: #fff;
+}
+
+.komenci-popular-post .posted-on {
+  margin-left: 0 !important;
+  margin-right: 20px;
+}
+
+.komenci-popular-post-item .entry-meta {
+  text-transform: capitalize !;
+}
+
+.komenci-popular-post-item .entry-meta .posted-on, .komenci-popular-post-item .entry-meta .byline {
+  text-transform: capitalize;
+}
+
+.komenci-popular-post-item .komenci-blog-title {
+  padding-bottom: 0;
+}
 @media only screen and (max-width: 767.98px) {
   .komenci-blog-single-thumb-item figure {
     height: 100%;
